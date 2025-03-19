@@ -1,0 +1,31 @@
+/* Styles pour centrer le contenu et définir l'aspect du texte */
+#text-container {
+    font-size: 2em;
+    text-align: center;
+    color: burlywood;
+    /* font-weight: bold; */
+}
+
+/* Style du curseur clignotant */
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background-color: white;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Vous pouvez ajouter des styles supplémentaires pour le body ou autres éléments
+   dans votre fichier CSS global ou dans un autre module de style */

@@ -1,0 +1,38 @@
+.experience .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.experience .card:hover {
+    transform: translateY(-10px);
+}
+
+.experience .card-body {
+    padding: 20px;
+}
+
+.experience .card img {
+    border-radius: 50%;
+}
+
+.experience .card h5 {
+    font-weight: bold;
+}
+
+.experience .card p {
+    margin-bottom: 10px;
+}
+
+.experience .card ul {
+    padding-left: 20px;
+}
+
+.experience .card ul li {
+    display: flex;
+    align-items: center;
+}
+
+.experience .card ul li i {
+    margin-right: 10px;
+}
