@@ -19,7 +19,7 @@ function Hero() {
         {/* Icônes de réseaux */}
         <div className="social-icons d-flex gap-3 mt-4" data-aos="fade-right">
           <a
-            href="https://linkedin.com/in/ahmada"
+            href="https://www.linkedin.com/in/amadou-ngom-8b0103157/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
@@ -28,7 +28,7 @@ function Hero() {
             <FaLinkedin />
           </a>
           <a
-            href="https://twitter.com/ahmada"
+            href="https://x.com/_ameahmada_"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
@@ -37,7 +37,7 @@ function Hero() {
             <FaTwitter />
           </a>
           <a
-            href="https://github.com/ahmada"
+            href="https://github.com/ameahmada"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
