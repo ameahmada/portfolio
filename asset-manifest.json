@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.18c1542d.css",
-    "main.js": "/static/js/main.be4ca08c.js",
+    "main.css": "/static/css/main.47fab6b5.css",
+    "main.js": "/static/js/main.dee84b69.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/portfolio.gif": "/static/media/portfolio.b1379b2211cb3fc507b5.gif",
     "static/media/00LogoAhmada.png": "/static/media/00LogoAhmada.88f8b884daeff5a937ef.png",
     "static/media/luxe-events.PNG": "/static/media/luxe-events.56ce705911c5a5a2e61a.PNG",
+    "static/media/Consolas.ttf": "/static/media/Consolas.b6b2a3b58f74f7c8ccf8.ttf",
     "static/media/ordi.png": "/static/media/ordi.188d78b6fd692808a884.png",
     "static/media/desktop.png": "/static/media/desktop.b4cd03b6d37b137c80c7.png",
     "static/media/skills.svg": "/static/media/skills.583901a2d473c1710f4b7bcd3cc85e0b.svg",
     "static/media/experience1.svg": "/static/media/experience1.d8ba2d63e4b410632ca3c004a4f187dc.svg",
     "index.html": "/index.html",
-    "main.18c1542d.css.map": "/static/css/main.18c1542d.css.map",
-    "main.be4ca08c.js.map": "/static/js/main.be4ca08c.js.map",
+    "main.47fab6b5.css.map": "/static/css/main.47fab6b5.css.map",
+    "main.dee84b69.js.map": "/static/js/main.dee84b69.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18c1542d.css",
-    "static/js/main.be4ca08c.js"
+    "static/css/main.47fab6b5.css",
+    "static/js/main.dee84b69.js"
   ]
 }
