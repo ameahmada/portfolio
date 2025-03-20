@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.47fab6b5.css",
-    "main.js": "/static/js/main.dee84b69.js",
+    "main.css": "/static/css/main.8d29476c.css",
+    "main.js": "/static/js/main.9f0dfec7.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/portfolio.gif": "/static/media/portfolio.b1379b2211cb3fc507b5.gif",
     "static/media/00LogoAhmada.png": "/static/media/00LogoAhmada.88f8b884daeff5a937ef.png",
@@ -12,12 +12,12 @@
     "static/media/skills.svg": "/static/media/skills.583901a2d473c1710f4b7bcd3cc85e0b.svg",
     "static/media/experience1.svg": "/static/media/experience1.d8ba2d63e4b410632ca3c004a4f187dc.svg",
     "index.html": "/index.html",
-    "main.47fab6b5.css.map": "/static/css/main.47fab6b5.css.map",
-    "main.dee84b69.js.map": "/static/js/main.dee84b69.js.map",
+    "main.8d29476c.css.map": "/static/css/main.8d29476c.css.map",
+    "main.9f0dfec7.js.map": "/static/js/main.9f0dfec7.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47fab6b5.css",
-    "static/js/main.dee84b69.js"
+    "static/css/main.8d29476c.css",
+    "static/js/main.9f0dfec7.js"
   ]
 }
