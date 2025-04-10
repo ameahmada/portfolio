@@ -86,7 +86,10 @@ function Experiences() {
               <Col xs={12} md={6} lg={4} className="mb-4" key={index}>
                 <Card className="h-100 shadow-sm">
                   <Card.Body>
-                    <div className="text-center mb-3">
+                    <div
+                      className="text-center mb-3"
+                      style={{ fontFamily: "Consolaa" }}
+                    >
                       <img
                         src={exp.logo}
                         alt={exp.company}
@@ -101,7 +104,11 @@ function Experiences() {
                       <p className="text-muted">{exp.contractDuration}</p>
                     </div>
                     {exp.projects.map((project, idx) => (
-                      <div key={idx} className="mb-3">
+                      <div
+                        key={idx}
+                        className="mb-3"
+                        style={{ fontFamily: "Consolaa" }}
+                      >
                         <h6>{project.name}</h6>
                         <p className="text-muted">{project.date}</p>
                         <p className="text-muted">{project.duration}</p>

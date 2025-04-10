@@ -15,6 +15,41 @@
     animation: blink 1s steps(2, start) infinite;
 }
 
+.salutations-text {
+    font-size: 2rem;
+    /* Taille par défaut */
+}
+.salutations-emoji {
+    font-size: 2rem;
+    /* Taille par défaut */
+}
+
+@media (max-width: 768px) {
+    .salutations-text {
+        font-size: 5.5vw;
+        /* Taille réduite pour les écrans de moins de 768px de large */
+    }
+    .cursor{
+        height: 0.7em;
+    }
+        .salutations-emoji {
+            font-size: 6vw;
+            /* Taille par défaut */
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .salutations-text {
+        font-size: 3vw;
+        /* Taille réduite pour les écrans de tablette */
+    }
+
+    .salutations-emoji {
+        font-size: 2.5vw;
+        /* Taille réduite pour les écrans de tablette */
+    }
+}
+
 @keyframes blink {
 
     0%,

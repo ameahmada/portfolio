@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import "../assets/css/fonts.css";
 import "../assets/css/Salutations.css"; // Assurez-vous d'importer les styles
 
 const Salutations = () => {
@@ -8,14 +9,15 @@ const Salutations = () => {
 
   // Tableau des lignes à afficher
   const lines = [
-    "Hi, I'm Ahmada☕🔵🔴",
-    "Tech enthusiast & Full-stack Developer📲💻",
-    "Salesforce & Mulesoft Consultant☁",
+    "Passionné de technologie💻🎉",
+    "Developpeur Full-stack📲💻",
+    "Salesforce Consultant ☁",
+    "Mulesoft Consultant ☁",
   ];
 
-  const speed = 200; // Vitesse d'écriture en millisecondes (augmentée pour tester)
+  const speed = 100; // Vitesse d'écriture en millisecondes (augmentée pour tester)
   const pauseBeforeErase = 1000; // Pause après l'écriture complète avant l'effacement
-  const pauseBeforeNextLine = 500; // Pause après l'effacement avant la prochaine ligne
+  const pauseBeforeNextLine = 100; // Pause après l'effacement avant la prochaine ligne
 
   // Fonction pour écrire une ligne lettre par lettre
   const typeLine = (text, element, callback) => {
@@ -76,8 +78,17 @@ const Salutations = () => {
   }, []);
 
   return (
-    <div id="text-container">
-      <span ref={lineRef}></span>
+    <div id="text-container" style={{ textAlign: "left" }}>
+      <span
+        ref={lineRef}
+        className="salutations-text"
+        style={{
+          textAlign: "left",
+          fontFamily: "Consolaa",
+          fontWeight: "bold",
+          letterSpacing: "-0.5px",
+        }}
+      ></span>
       <span className="cursor"></span>
     </div>
   );

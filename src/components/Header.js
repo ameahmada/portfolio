@@ -10,7 +10,7 @@ function Header({ darkMode, setDarkMode }) {
         src={logo}
         alt="ahmada"
         className="m-0 img-fluid hero-photo"
-        style={{ width: "3vw", height: "3vw", objectFit: "contain" }}
+        style={{ width: "7vw", height: "7vw", objectFit: "contain" }}
       />
       <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
     </header>

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Consolass';
+    src: url('../fonts/Consolas.ttf') format('woff2'),
+        url('../fonts/Consolas.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Consolaa';
+    src: url('../fonts/consola.ttf') format('woff2'),
+        url('../fonts/consola.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Consolab';
+    src: url('../fonts/consolab.ttf') format('woff2'),
+        url('../fonts/consolab.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'pencil';
+    src: url('../fonts/PencilLetters.ttf') format('woff2'),
+        url('../fonts/PencilLetters.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'zai';
+    src: url('../fonts/zai.ttf') format('woff2'),
+        url('../fonts/zai.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'matura';
+    src: url('../fonts/matura.TTF') format('woff2'),
+        url('../fonts/matura.TTF') format('woff');
+}
+
+@font-face {
+    font-family: 'westgona';
+    src: url('../fonts/west.ttf') format('woff2'),
+        url('../fonts/west.ttf') format('woff');
+}

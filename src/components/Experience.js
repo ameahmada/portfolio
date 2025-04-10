@@ -3,7 +3,9 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import skillsimage from "../assets/images/svg/experience1.svg";
 import logolycs from "../assets/images/png/logoLycs.png";
 import logoluxeevents from "../assets/images/png/luxe-events.PNG";
+import "../assets/css/fonts.css";
 import "../assets/css/experience.css";
+import { FaHandPointRight } from "react-icons/fa";
 
 function Experience() {
   const experiences = [
@@ -72,20 +74,44 @@ function Experience() {
       <Container>
         <Row>
           <Col xs={12} md={6} lg={4} className="mb-4 text-center">
-            <h4 data-aos="fade-right">Experiences</h4>
-            <img
-              data-aos="fade-right"
-              src={skillsimage}
-              alt="ahmada"
-              className="img-fluid hero-photo"
-              style={{ width: "50vh", height: "50vh", objectFit: "contain" }}
-            />
+            <Row>
+              <Col xs={12} md={12} lg={12} className="mb-2 text-center">
+                <h1
+                  data-aos="fade-right"
+                  className="m-0"
+                  style={{ fontFamily: "zai" }}
+                >
+                  Experiences
+                </h1>
+              </Col>
+              <Col
+                xs={12}
+                md={12}
+                lg={12}
+                className="d-none d-md-block mb-4 text-center"
+              >
+                <img
+                  data-aos="fade-right"
+                  src={skillsimage}
+                  alt="ahmada"
+                  className="img-fluid hero-photo"
+                  style={{
+                    width: "50vh",
+                    height: "50vh",
+                    objectFit: "contain",
+                  }}
+                />
+              </Col>
+            </Row>
           </Col>
           <Col xs={12} md={6} lg={8} className="mb-8 p-1">
             <Row data-aos="fade-right">
               {experiences.map((exp, index) => (
                 <Col xs={12} md={12} lg={12} className="mb-4" key={index}>
-                  <Card className="bg-burlywood">
+                  <Card
+                    className="bg-burlywood"
+                    style={{ fontFamily: "Consolaa" }}
+                  >
                     <Card.Body>
                       <Row>
                         <Col
@@ -105,18 +131,30 @@ function Experience() {
                               objectFit: "contain",
                             }}
                           />
-                          <h5 data-aos="fade-right">{exp.company}</h5>
+                          <h5
+                            data-aos="fade-right"
+                            style={{ fontWeight: "bold" }}
+                          >
+                            {exp.company}
+                          </h5>
                           <p data-aos="fade-right">{exp.contractDuration}</p>
                         </Col>
                         <Col xs={12} md={8} data-aos="fade-right">
                           {exp.projects.map((project, idx) => (
                             <div key={idx} className="mb-3">
-                              <h6 data-aos="fade-right">{project.name}</h6>
+                              <h6
+                                data-aos="fade-right"
+                                style={{ fontWeight: "bold" }}
+                              >
+                                {project.name}
+                              </h6>
                               <p data-aos="fade-right">{project.date}</p>
                               <p data-aos="fade-right">{project.duration}</p>
                               <ul>
                                 {project.tasks.map((task, taskIdx) => (
                                   <li key={taskIdx} data-aos="fade-right">
+                                    <FaHandPointRight />
+                                    &nbsp;
                                     {task}
                                   </li>
                                 ))}
