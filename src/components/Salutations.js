@@ -89,7 +89,9 @@ const Salutations = () => {
           letterSpacing: "-0.5px",
         }}
       ></span>
-      <span className="cursor"></span>
+      <span className="cursor" style={{ fontFamily: "wingding" }}>
+        
+      </span>
     </div>
   );
 };

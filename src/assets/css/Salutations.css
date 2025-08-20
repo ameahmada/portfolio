@@ -7,12 +7,25 @@
 }
 
 /* Style du curseur clignotant */
-.cursor {
+/* .cursor2 {
     display: inline-block;
     width: 2px;
     height: 1em;
     background-color: white;
     animation: blink 1s steps(2, start) infinite;
+} */
+
+.cursor {
+    display: inline-block;
+    width: auto;
+    height: 1em;
+    background-color: none;
+    color: white;
+    /* content: ''; */
+    /* content: '|'; */
+    animation: blink 1s steps(2, start) infinite;
+    font-family: "wingding";
+    font-size: 3.5rem;
 }
 
 .salutations-text {

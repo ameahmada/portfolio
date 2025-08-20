@@ -39,3 +39,21 @@
     src: url('../fonts/west.ttf') format('woff2'),
         url('../fonts/west.ttf') format('woff');
 }
+
+@font-face {
+    font-family: 'wingding';
+    src: url('../fonts/WINGDING.TTF') format('woff2'),
+        url('../fonts/WINGDING.TTF') format('woff');
+}
+
+@font-face {
+    font-family: 'wingding2';
+    src: url('../fonts/WINGDNG2.TTF') format('woff2'),
+        url('../fonts/WINGDNG2.TTF') format('woff');
+}
+
+@font-face {
+    font-family: 'wingding3';
+    src: url('../fonts/WINGDNG3.TTF') format('woff2'),
+        url('../fonts/WINGDNG3.TTF') format('woff');
+}
