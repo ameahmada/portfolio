@@ -1,32 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.41e83c6c.css",
-    "main.js": "/static/js/main.33475205.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/portfolio.gif": "/static/media/portfolio.9e747a4a64927b1bdd57.gif",
-    "static/media/00LogoAhmada.png": "/static/media/00LogoAhmada.88f8b884daeff5a937ef.png",
-    "static/media/luxe-events.PNG": "/static/media/luxe-events.56ce705911c5a5a2e61a.PNG",
-    "static/media/consola.ttf": "/static/media/consola.b23ff2e9649f2098ea7a.ttf",
-    "static/media/consolab.ttf": "/static/media/consolab.4f187a85a25973f01bf0.ttf",
-    "static/media/zai.ttf": "/static/media/zai.33b43ec39caae3948709.ttf",
-    "static/media/Consolas.ttf": "/static/media/Consolas.b6b2a3b58f74f7c8ccf8.ttf",
-    "static/media/PencilLetters.ttf": "/static/media/PencilLetters.1605b50c27b5e383fa9a.ttf",
-    "static/media/ordi.png": "/static/media/ordi.188d78b6fd692808a884.png",
-    "static/media/desktop.png": "/static/media/desktop.d19fe5067d85d70b28d3.png",
-    "static/media/WINGDING.TTF": "/static/media/WINGDING.8535f72bbcd87752d9d6.TTF",
-    "static/media/WINGDNG2.TTF": "/static/media/WINGDNG2.02833fbe9130eb81495c.TTF",
-    "static/media/matura.TTF": "/static/media/matura.1bfc7f7e870ed5c1c684.TTF",
-    "static/media/west.ttf": "/static/media/west.6eec75e129ff47bddbef.ttf",
-    "static/media/WINGDNG3.TTF": "/static/media/WINGDNG3.54a819e4ef56dea8cc9f.TTF",
-    "static/media/skills.svg": "/static/media/skills.583901a2d473c1710f4b7bcd3cc85e0b.svg",
-    "static/media/experience1.svg": "/static/media/experience1.d8ba2d63e4b410632ca3c004a4f187dc.svg",
+    "main.css": "/static/css/main.ea3388ef.css",
+    "main.js": "/static/js/main.2669c811.js",
+    "static/js/453.635f5f07.chunk.js": "/static/js/453.635f5f07.chunk.js",
+    "static/media/portfolio.gif": "/static/media/portfolio.923bed8804aded45d565.gif",
+    "static/media/ordi.png": "/static/media/ordi.5313b1e60dc74dee2a72.png",
+    "static/media/luxe-events.jpg": "/static/media/luxe-events.2931964bdb34f9fa7783.jpg",
+    "static/media/logo.svg": "/static/media/logo.fbb82e100efbe609776b2ac94d4c5dab.svg",
     "index.html": "/index.html",
-    "main.41e83c6c.css.map": "/static/css/main.41e83c6c.css.map",
-    "main.33475205.js.map": "/static/js/main.33475205.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.ea3388ef.css.map": "/static/css/main.ea3388ef.css.map",
+    "main.2669c811.js.map": "/static/js/main.2669c811.js.map",
+    "453.635f5f07.chunk.js.map": "/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41e83c6c.css",
-    "static/js/main.33475205.js"
+    "static/css/main.ea3388ef.css",
+    "static/js/main.2669c811.js"
   ]
 }
